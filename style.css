@@ -1,0 +1,1354 @@
+/* line 1, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/normalize */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block; }
+
+/* line 1, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/normalize */
+audio, canvas, video {
+  display: inline-block; }
+
+/* line 1, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/normalize */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/* line 1, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/normalize */
+[hidden] {
+  display: none; }
+
+/* line 1, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/normalize */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+/* line 1, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/normalize */
+a:focus {
+  outline: thin dotted; }
+
+/* line 1, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/normalize */
+a:active, a:hover {
+  outline: 0; }
+
+/* line 1, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/normalize */
+h1 {
+  font-size: 2em; }
+
+/* line 1, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/normalize */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/* line 1, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/normalize */
+b, strong {
+  font-weight: 700; }
+
+/* line 1, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/normalize */
+dfn {
+  font-style: italic; }
+
+/* line 1, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/normalize */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/* line 1, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/normalize */
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+/* line 1, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/normalize */
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+/* line 1, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/normalize */
+q {
+  quotes: \201C \201D \2018 \2019; }
+
+/* line 1, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/normalize */
+small {
+  font-size: 80%; }
+
+/* line 1, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/normalize */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 1, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/normalize */
+sup {
+  top: -0.5em; }
+
+/* line 1, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/normalize */
+sub {
+  bottom: -0.25em; }
+
+/* line 1, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/normalize */
+img {
+  border: 0; }
+
+/* line 1, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/normalize */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* line 1, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/normalize */
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/* line 1, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/normalize */
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0; }
+
+/* line 1, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/normalize */
+button, input {
+  line-height: normal; }
+
+/* line 2, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/normalize */
+button, html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+/* line 2, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/normalize */
+button[disabled], input[disabled] {
+  cursor: default; }
+
+/* line 2, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/normalize */
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0; }
+
+/* line 2, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/normalize */
+input[type=search] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box; }
+
+/* line 2, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/normalize */
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/* line 2, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/normalize */
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+/* line 2, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/normalize */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 2, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/normalize */
+body, figure {
+  margin: 0; }
+
+/* line 2, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/normalize */
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/* line 4, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/normalize */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+/* line 6, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/normalize */
+* {
+  box-sizing: border-box; }
+
+/* line 81, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+body {
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0; }
+
+/* line 89, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+  font-weight: 400; }
+
+/* line 93, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+h3 {
+  font-family: 'GFS Didot', serif;
+  font-size: 1.4rem;
+  font-weight: 400; }
+
+/* line 97, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.67rem; }
+
+/* line 101, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+h5 {
+  font-family: 'GFS Didot', serif;
+  font-size: 1.1rem;
+  color: #ebe5d7; }
+
+/* line 105, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+p {
+  font-size: 0.7rem;
+  color: #73848e; }
+
+/* line 110, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+img {
+  max-width: 100%; }
+
+/* line 114, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+.accent-color {
+  color: #cc5012; }
+
+/* line 118, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+.italic {
+  font-style: italic; }
+
+/* line 122, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+.bold {
+  font-weight: 600; }
+
+/* line 126, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+.uppercase {
+  text-transform: uppercase; }
+
+/* line 131, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+.navigation a, .gallery-nav a {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none; }
+
+/* line 140, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  height: 100vh;
+  width: 200px;
+  padding: 10px 40px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(36, 41, 45, 0.7);
+  transition: all 0.25s ease; }
+  /* line 153, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  nav ul {
+    margin: 0;
+    padding: 0; }
+    /* line 156, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    nav ul li {
+      list-style: none;
+      margin-bottom: 20px; }
+      /* line 159, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+      nav ul li:first-child {
+        margin-top: 20px; }
+      /* line 162, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+      nav ul li:last-child {
+        margin-bottom: 0; }
+      /* line 165, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+      nav ul li a {
+        text-decoration: none; }
+        /* line 167, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+        nav ul li a:hover {
+          color: #ebe5d7; }
+  /* line 173, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  nav p {
+    text-align: center; }
+  /* line 176, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  nav .nav-social {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    /* line 177, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    nav .nav-social i {
+      font-size: 2.5rem; }
+    /* line 183, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    nav .nav-social a {
+      color: #ebe5d7;
+      text-decoration: none; }
+  /* line 188, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  nav .social-icons {
+    font-size: 1.3rem;
+    color: #73848e; }
+    /* line 191, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    nav .social-icons .fa:hover {
+      color: #ebe5d7; }
+    /* line 195, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    nav .social-icons .fa-facebook, nav .social-icons .fa-twitter {
+      margin-right: 6px; }
+
+/* line 203, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+header {
+  background-image: url(assets/placeholder.jpg);
+  background-size: cover;
+  height: 100vh;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  /* line 209, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  header span {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 5;
+    visibility: hidden; }
+  /* line 216, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  header h1 {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 550px; }
+    /* line 220, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    header h1 figure:nth-child(2) {
+      margin-top: 25px;
+      margin-bottom: -10px; }
+  /* line 225, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  header a {
+    background: #cc5012;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 10px 25px;
+    border-radius: 2px;
+    text-decoration: none; }
+    /* line 227, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    header a img {
+      width: 23px; }
+    /* line 230, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    header a input {
+      border: none;
+      background: #cc5012;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #ebe5d7; }
+
+/* line 238, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+section.about {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 385px; }
+  /* line 241, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  section.about h2 {
+    margin-top: 0;
+    margin-bottom: 20px; }
+  /* line 246, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  section.about h3, section.about h4 {
+    margin-top: 0;
+    margin-bottom: 0; }
+  /* line 250, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  section.about .about-wrapper {
+    background: #ebe5d7;
+    width: 50%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row-reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  /* line 257, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  section.about .about-lrg-image {
+    width: 50%;
+    background-image: url(assets/placeholder.jpg);
+    background-size: cover; }
+
+/* line 264, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+.about-chef {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 400px; }
+  /* line 267, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  .about-chef .chef {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    padding-right: 35px; }
+    /* line 271, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    .about-chef .chef figure {
+      width: 17%; }
+      /* line 273, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+      .about-chef .chef figure img {
+        border-radius: 50%;
+        border: 2px solid white; }
+    /* line 278, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    .about-chef .chef .chef-header {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin-left: 10px; }
+  /* line 284, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  .about-chef .about-nav {
+    font-size: 1.5rem;
+    margin-top: 10px; }
+    /* line 287, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    .about-chef .about-nav .lnr {
+      color: #73848e; }
+      /* line 289, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+      .about-chef .about-nav .lnr:hover {
+        color: #cc5012; }
+
+/* line 298, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+section.gallery {
+  background: #24292d;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  /* line 302, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  section.gallery .gallery-header {
+    max-width: 940px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    /* line 306, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    section.gallery .gallery-header h2 {
+      margin-top: 55px;
+      margin-bottom: 10px;
+      color: #ebe5d7; }
+    /* line 311, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    section.gallery .gallery-header p {
+      width: 65%;
+      text-align: center;
+      color: #ebe5d7;
+      margin-bottom: 40px; }
+    /* line 317, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    section.gallery .gallery-header .gallery-nav {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -ms-flexbox;
+      display: flex;
+      padding: 0;
+      margin-top: 0;
+      margin-bottom: 40px;
+      background: #2f363b;
+      border: 1px solid rgba(235, 229, 215, 0.5);
+      border-radius: 3px;
+      padding: 7px 10px; }
+      /* line 326, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+      section.gallery .gallery-header .gallery-nav li:not(.no-border-right) {
+        border-right: 1px solid rgba(235, 229, 215, 0.5); }
+      /* line 329, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+      section.gallery .gallery-header .gallery-nav li {
+        list-style: none; }
+        /* line 331, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+        section.gallery .gallery-header .gallery-nav li a {
+          margin: 0 15px; }
+          /* line 333, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+          section.gallery .gallery-header .gallery-nav li a:hover {
+            color: #cc5012; }
+
+/* line 342, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+ul.gallery-items {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding: 0;
+  margin: 0; }
+  /* line 347, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  ul.gallery-items li {
+    list-style: none;
+    width: 20%;
+    position: relative; }
+    /* line 351, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    ul.gallery-items li img {
+      display: block; }
+    /* line 354, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    ul.gallery-items li .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(36, 41, 45, 0.7);
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-justify-content: flex-end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      visibility: hidden;
+      opacity: 0;
+      transition: all 0.2s ease; }
+      /* line 366, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+      ul.gallery-items li .overlay h5 {
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0; }
+      /* line 372, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+      ul.gallery-items li .overlay p {
+        color: #ebe5d7;
+        text-transform: uppercase;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0; }
+      /* line 380, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+      ul.gallery-items li .overlay .link-search {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-self: flex-start;
+            -ms-flex-item-align: start;
+                align-self: flex-start; }
+        /* line 383, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+        ul.gallery-items li .overlay .link-search img {
+          background: #ebe5d7;
+          padding: 5px;
+          width: 35px;
+          margin-right: 1px; }
+
+/* line 394, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+.gallery-items li:hover .overlay {
+  visibility: visible;
+  opacity: 1; }
+
+/* line 401, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+section.services {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  /* line 403, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  section.services .services-wrapper {
+    text-align: center;
+    max-width: 940px;
+    padding-bottom: 20px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    /* line 410, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    section.services .services-wrapper h2 {
+      margin-top: 55px;
+      margin-bottom: 10px; }
+    /* line 414, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    section.services .services-wrapper p {
+      width: 65%;
+      margin: 10px auto 40px auto; }
+
+/* line 421, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+ul.services-list {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  max-width: 940px;
+  padding: 0;
+  margin: 0; }
+  /* line 428, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  ul.services-list li {
+    list-style: none;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+
+/* line 437, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+section.menu {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url(assets/placeholder.jpg);
+  background-size: cover; }
+  /* line 441, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  section.menu .menu-overlay {
+    margin: auto;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 65px;
+    background: rgba(36, 41, 45, 0.7); }
+    /* line 449, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    section.menu .menu-overlay a {
+      background: #cc5012;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      padding: 10px 25px;
+      border-radius: 2px;
+      text-decoration: none; }
+      /* line 451, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+      section.menu .menu-overlay a img {
+        width: 23px; }
+      /* line 454, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+      section.menu .menu-overlay a input {
+        border: none;
+        background: #cc5012;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #ebe5d7; }
+    /* line 458, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    section.menu .menu-overlay .menu-nav {
+      position: relative;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      width: 940px; }
+      /* line 463, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+      section.menu .menu-overlay .menu-nav h2 {
+        margin: 0;
+        color: #ebe5d7; }
+      /* line 467, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+      section.menu .menu-overlay .menu-nav .nav-icons {
+        position: absolute;
+        top: calc(50% - (26px / 2));
+        right: 0; }
+        /* line 471, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+        section.menu .menu-overlay .menu-nav .nav-icons .lnr {
+          color: #ebe5d7;
+          font-size: 1.5rem; }
+          /* line 474, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+          section.menu .menu-overlay .menu-nav .nav-icons .lnr:hover {
+            color: #cc5012; }
+    /* line 480, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    section.menu .menu-overlay .menu-list {
+      width: 940px;
+      margin-bottom: 75px;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      /* line 485, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+      section.menu .menu-overlay .menu-list ul {
+        width: 50%;
+        padding-left: 0;
+        margin: 0;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column; }
+        /* line 490, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+        section.menu .menu-overlay .menu-list ul li {
+          list-style: none; }
+          /* line 492, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+          section.menu .menu-overlay .menu-list ul li h5 {
+            margin-bottom: 0; }
+          /* line 495, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+          section.menu .menu-overlay .menu-list ul li .menu-sub {
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: -ms-flexbox;
+            display: flex; }
+            /* line 497, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+            section.menu .menu-overlay .menu-list ul li .menu-sub .dots {
+              border-bottom: 1px dotted #ebe5d7;
+              -webkit-flex: 1 0 auto;
+                  -ms-flex: 1 0 auto;
+                      flex: 1 0 auto; }
+          /* line 502, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+          section.menu .menu-overlay .menu-list ul li p {
+            color: #ebe5d7;
+            margin-top: 0;
+            margin-bottom: 0; }
+      /* line 509, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+      section.menu .menu-overlay .menu-list .menu-left {
+        padding-right: 20px; }
+      /* line 512, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+      section.menu .menu-overlay .menu-list .menu-right {
+        padding-left: 20px; }
+    /* line 516, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    section.menu .menu-overlay a {
+      background: #cc5012;
+      margin-bottom: 65px; }
+
+/* line 525, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+section.map {
+  height: 240px;
+  background-image: url(assets/map.png);
+  background-size: cover;
+  background-position: center; }
+
+/* line 534, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+section.contact {
+  background: #24292d;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  /* line 537, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  section.contact .social-address {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    width: 940px;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-align-items: flex-end;
+        -ms-flex-align: end;
+            align-items: flex-end; }
+    /* line 543, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    section.contact .social-address .social-left {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      /* line 546, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+      section.contact .social-address .social-left .logo {
+        margin-bottom: 40px; }
+      /* line 549, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+      section.contact .social-address .social-left ul {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-justify-content: space-around;
+            -ms-flex-pack: distribute;
+                justify-content: space-around; }
+        /* line 555, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+        section.contact .social-address .social-left ul li:not(.no-margin) {
+          margin-right: 20px; }
+        /* line 558, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+        section.contact .social-address .social-left ul li {
+          list-style: none; }
+          /* line 560, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+          section.contact .social-address .social-left ul li a {
+            color: #73848e;
+            font-size: 1.2rem; }
+            /* line 563, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+            section.contact .social-address .social-left ul li a:hover {
+              color: #ebe5d7; }
+    /* line 570, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    section.contact .social-address .social-right {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+
+/* line 576, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+form {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 380px;
+  background: white;
+  margin-top: -100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 20px 25px; }
+  /* line 585, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  form h2 {
+    margin-top: 0;
+    margin-bottom: 10px; }
+  /* line 591, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  form input[type=text], form input[type=email], form textarea {
+    width: 100%;
+    border: 1px solid #8f9da5;
+    margin-bottom: 7px;
+    background: #fcfcfc;
+    padding: 10px; }
+    /* line 597, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    form input[type=text]::-webkit-input-placeholder, form input[type=email]::-webkit-input-placeholder, form textarea::-webkit-input-placeholder {
+      color: #24292d;
+      font-size: 0.7rem; }
+    /* line 601, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    form input[type=text]:-moz-placeholder, form input[type=email]:-moz-placeholder, form textarea:-moz-placeholder {
+      /* Firefox 18- */
+      color: #24292d;
+      font-size: 0.7rem; }
+    /* line 605, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    form input[type=text]::-moz-placeholder, form input[type=email]::-moz-placeholder, form textarea::-moz-placeholder {
+      /* Firefox 19+ */
+      color: #24292d;
+      font-size: 0.7rem; }
+    /* line 609, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    form input[type=text]:-ms-input-placeholder, form input[type=email]:-ms-input-placeholder, form textarea:-ms-input-placeholder {
+      color: #24292d;
+      font-size: 0.7rem; }
+  /* line 614, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  form textarea {
+    resize: none; }
+  /* line 617, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  form input[type=button] {
+    background: white;
+    border: 2px solid #24292d;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 13px; }
+
+/* line 629, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+.address, .phone, .email {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  /* line 631, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  .address figure, .phone figure, .email figure {
+    width: 25px; }
+  /* line 634, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  .address p, .phone p, .email p {
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-left: 20px; }
+  /* line 639, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  .address a, .phone a, .email a {
+    margin-left: 20px;
+    color: #73848e;
+    font-size: 0.7rem;
+    text-decoration: none; }
+    /* line 644, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    .address a:hover, .phone a:hover, .email a:hover {
+      color: #cc5012; }
+
+/* line 652, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+footer {
+  background: #24292d;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  /* line 657, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  footer p {
+    margin: 0; }
+
+/* line 664, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+.animated {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+
+/* line 671, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite; }
+
+@-webkit-keyframes wobble {
+  /* line 677, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  0% {
+    -webkit-transform: none;
+    transform: none; }
+
+  /* line 682, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  15% {
+    -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg); }
+
+  /* line 687, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  30% {
+    -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg); }
+
+  /* line 692, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  45% {
+    -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg); }
+
+  /* line 697, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  60% {
+    -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg); }
+
+  /* line 702, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  75% {
+    -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg); }
+
+  /* line 707, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  100% {
+    -webkit-transform: none;
+    transform: none; } }
+
+@keyframes wobble {
+  /* line 714, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  0% {
+    -webkit-transform: none;
+    transform: none; }
+
+  /* line 719, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  15% {
+    -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg); }
+
+  /* line 724, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  30% {
+    -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg); }
+
+  /* line 729, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  45% {
+    -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg); }
+
+  /* line 734, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  60% {
+    -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg); }
+
+  /* line 739, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  75% {
+    -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg); }
+
+  /* line 744, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  100% {
+    -webkit-transform: none;
+    transform: none; } }
+
+/* line 750, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+.wobble {
+  -webkit-animation-name: wobble;
+  animation-name: wobble; }
+
+@media (max-width: 1160px) {
+  /* line 758, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  nav .nav-social i {
+    font-size: 2rem; }
+
+  /* line 761, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  nav p.copyright {
+    display: none; }
+ }
+
+@media (max-width: 1018px) {
+  /* line 767, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  header h1 {
+    max-width: 450px; }
+
+  /* line 770, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  nav {
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    padding: 0px 40px; }
+    /* line 773, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    nav .social-icons {
+      display: none; }
+ }
+
+@media (max-width: 940px) {
+  /* line 780, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  ul.gallery-items li {
+    width: 25%; }
+    /* line 782, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    ul.gallery-items li .overlay {
+      visibility: visible;
+      opacity: 1; }
+      /* line 785, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+      ul.gallery-items li .overlay .link-search {
+        display: none; }
+
+  /* line 790, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  ul.services-list {
+    max-width: 800px; }
+
+  /* line 794, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  .menu-nav, .menu-list {
+    max-width: 800px; }
+ }
+
+@media (max-width: 865px) {
+  /* line 800, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  header h1 {
+    max-width: 400px; }
+
+  /* line 803, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  section.contact form {
+    margin-right: 15px;
+    margin-left: 15px; }
+
+  /* line 807, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  ul.gallery-items li {
+    width: calc(100% / 3); }
+ }
+
+@media (max-width: 825px) {
+  /* line 814, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  section.about .about-wrapper {
+    width: 100%;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row; }
+    /* line 817, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    section.about .about-wrapper .about-chef {
+      margin: auto; }
+  /* line 821, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  section.about .about-lrg-image {
+    display: none;
+    padding-right: 0px; }
+
+  /* line 827, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  .menu-nav, .menu-list {
+    max-width: 700px; }
+
+  /* line 831, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  section.contact .social-address {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 700px; }
+    /* line 835, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    section.contact .social-address form {
+      margin-bottom: 30px;
+      width: 380px; }
+    /* line 840, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    section.contact .social-address .social-left, section.contact .social-address .social-right {
+      -webkit-order: 1;
+          -ms-flex-order: 1;
+              order: 1;
+      width: 300px;
+      padding: 0 60px; }
+ }
+
+@media (max-width: 768px) {
+  /* line 850, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  span.lnr-menu {
+    visibility: visible;
+    font-size: 2.6rem;
+    font-weight: 600;
+    color: #cc5012; }
+
+  /* line 856, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  nav {
+    width: 100vw;
+    background: #24292d;
+    display: none;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+ }
+
+@media (max-width: 715px) {
+  /* line 867, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  ul.gallery-items li {
+    width: 50%; }
+
+  /* line 870, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  ul.services-list {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: 700px; }
+    /* line 875, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    ul.services-list li {
+      width: 50%;
+      -webkit-flex: 1 0 auto;
+          -ms-flex: 1 0 auto;
+              flex: 1 0 auto; }
+
+  /* line 880, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  .menu-nav {
+    max-width: 600px; }
+
+  /* line 883, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  .menu-list {
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+
+  /* line 887, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  section.menu .menu-overlay .menu-list .menu-right {
+    padding-left: 0px; }
+
+  /* line 890, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  section.menu .menu-overlay .menu-list .menu-left {
+    padding-right: 0px; }
+ }
+
+@media (max-width: 615px) {
+  /* line 896, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  .menu-nav {
+    max-width: 530px; }
+ }
+
+@media (max-width: 600px) {
+  /* line 902, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  section.contact .social-address .social-left {
+    padding: 0;
+    margin-bottom: 25px; }
+    /* line 905, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    section.contact .social-address .social-left .logo {
+      margin-bottom: 5px; }
+
+  /* line 909, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  .social-right {
+    padding: 0; }
+    /* line 912, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    .social-right .address p, .social-right .phone p {
+      margin-bottom: 10px; }
+ }
+
+@media (max-width: 530px) {
+  /* line 919, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  section.menu .menu-overlay .menu-nav {
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    /* line 922, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    section.menu .menu-overlay .menu-nav .nav-icons {
+      position: static; }
+ }
+
+@media (max-width: 480px) {
+  /* line 929, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  header.main h1 {
+    max-width: 300px; }
+ }
+
+@media (max-height: 670px) {
+  /* line 936, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  nav {
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around; }
+    /* line 938, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    nav figure {
+      margin-top: 15%; }
+    /* line 941, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+    nav ul.navigation {
+      margin-bottom: 15%; }
+
+  /* line 945, C:/Users/Iana/Desktop/Hacker You/HY_Bootcamp/Week 3/project_3_yana_tzvetkova/style.scss */
+  nav .nav-social {
+    display: none; }
+ }
